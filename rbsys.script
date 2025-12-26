@@ -1,0 +1,16 @@
+## Custom plymouth theme for my computer
+
+screen.w = Window.GetWidth();
+screen.h = Window.GetHeight();
+screen.half.w = Window.GetWidth() / 2;
+screen.half.h = Window.GetHeight() / 2;
+
+image = Image("logo.png");
+centre_sprite = Sprite();
+centre_sprite.SetX(Window.GetX() + (screen.w / 2 - image.GetWidth() / 2));
+centre_sprite.SetY(Window.GetY() + (screen.h / 2 - image.GetHeight() / 2));
+centre_sprite.SetImage(Image("logo.png"));
+
+# TODO background color
+Window.SetBackgroundTopColor(0.2, 0.13, 0.13);
+Window.SetBackgroundBottomColor(0.2, 0.13, 0.13);

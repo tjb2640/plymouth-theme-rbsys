@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=rbsys
+Description=custom plymouth theme for my computer with my window decorations
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/rbsys
+ScriptFile=/usr/share/plymouth/themes/rbsys/rbsys.script
